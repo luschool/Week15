@@ -1,0 +1,5 @@
+#!ipxe
+  
+dhcp
+chain --autofree tftp://192.168.1.30/pboot2.ipxe
+
